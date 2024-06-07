@@ -51,7 +51,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 //validating api key
-/*app.Use(async (context, next) =>
+app.Use(async (context, next) =>
 {
     if (context.Request.Path.StartsWithSegments("/api"))
     {
@@ -69,7 +69,7 @@ app.UseHttpsRedirection();
     }
 
     await next();
-});*/
+});
 app.MapControllers();
 
 app.Run();
