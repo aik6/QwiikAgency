@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QwiikAgency", "QwiikAgency\QwiikAgency.csproj", "{1F0CCEE5-F1CA-4229-B763-22BF4C832D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{805AE75A-455B-4E4D-A166-D7A1C5B83AC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F0CCEE5-F1CA-4229-B763-22BF4C832D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0CCEE5-F1CA-4229-B763-22BF4C832D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0CCEE5-F1CA-4229-B763-22BF4C832D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0CCEE5-F1CA-4229-B763-22BF4C832D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805AE75A-455B-4E4D-A166-D7A1C5B83AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805AE75A-455B-4E4D-A166-D7A1C5B83AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805AE75A-455B-4E4D-A166-D7A1C5B83AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805AE75A-455B-4E4D-A166-D7A1C5B83AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74DE44A6-7DA5-4AE1-B37B-A7577AF6B9E6}
+	EndGlobalSection
+EndGlobal
